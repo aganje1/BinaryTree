@@ -52,7 +52,6 @@ namespace TraverseBinaryTree
 			{
 				return;
 			}
-			else
 
 			inOrderTraverse(node.left);
 			Console.Write(node.key + " ");
@@ -65,7 +64,7 @@ namespace TraverseBinaryTree
 			{
 				return;
 			}
-			else
+			
 			Console.Write(node.key + " ");
 			preOrderTraverse(node.left);
 			preOrderTraverse(node.right);
